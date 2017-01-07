@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.communicationproject.MainActivity">
+
+    <!--Top flip card-->
+
+    <com.communicationproject.views.FlipLayout
+        android:id="@+id/flipLayout_top"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_topCardFront"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:background="#AE2573">
+
+            <TextView
+                android:id="@+id/textView_titleTopCardFront"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Texte"
+                android:layout_centerInParent="true"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold|italic"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_topCardBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:background="#AE2573">
+
+            <TextView
+                android:id="@+id/textView_titleTopCardBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:layout_centerInParent="true"
+                android:textSize="17sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold|italic"
+                />
+        </RelativeLayout>
+
+    </com.communicationproject.views.FlipLayout>
+
+    <!--Second line flip cards-->
+
+    <LinearLayout
+        android:id="@+id/flipLayout_secondLine"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/flipLayout_top"
+        android:background="@android:color/black"
+        android:orientation="horizontal">
+
+        <com.communicationproject.views.FlipLayout
+            android:id="@+id/flipLayout_SecondLineLeftCard"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_SecondLineLeftCardFront"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                >
+
+                <!--<TextView
+                    android:id="@+id/textView_titleSecondLineLeftCardFront"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Texte"
+                    android:layout_centerInParent="true"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic"
+                    />-->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/symfony_logo"
+                    android:padding="20dp"
+                    android:layout_centerInParent="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_SecondLineLeftCardBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:background="@android:color/white"
+                >
+
+                <TextView
+                    android:id="@+id/textView_titleSecondLineLeftCardBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    />
+            </RelativeLayout>
+
+        </com.communicationproject.views.FlipLayout>
+
+        <com.communicationproject.views.FlipLayout
+            android:id="@+id/flipLayout_SecondLineCenterCard"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_SecondLineCenterCardFront"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                >
+
+                <!--<TextView
+                    android:id="@+id/textView_titleSecondLineCenterCardFront"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Texte"
+                    android:layout_centerInParent="true"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic"
+                    />-->
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/angularjs_logo"
+                    android:padding="20dp"
+                    android:layout_centerInParent="true"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_SecondLineCenterCardBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:background="@android:color/white"
+                >
+
+                <TextView
+                    android:id="@+id/textView_titleSecondLineCenterCardBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    />
+
+
+            </RelativeLayout>
+
+        </com.communicationproject.views.FlipLayout>
+
+        <com.communicationproject.views.FlipLayout
+            android:id="@+id/flipLayout_SecondLineRightCard"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_SecondLineRightCardFront"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                >
+
+         <!--       <TextView
+                    android:id="@+id/textView_titleSecondLineRightCardFront"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Texte"
+                    android:layout_centerInParent="true"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic"
+                    />-->
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/java_ee"
+                    android:padding="20dp"
+                    android:layout_centerInParent="true"
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_SecondLineRightCardBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:background="@android:color/white"
+                >
+
+                <TextView
+                    android:id="@+id/textView_titleSecondLineRightCardBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    />
+            </RelativeLayout>
+
+        </com.communicationproject.views.FlipLayout>
+
+    </LinearLayout>
+
+    <!--Third line-->
+
+    <LinearLayout
+        android:id="@+id/flipLayout_thirdLine"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@android:color/black"
+        android:layout_below="@+id/flipLayout_secondLine"
+        android:orientation="horizontal">
+
+        <com.communicationproject.views.FlipLayout
+            android:id="@+id/flipLayout_ThirdLineLeftCard"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_ThirdLineLeftCardFront"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                >
+
+                <!--<TextView
+                    android:id="@+id/textView_titleThirdLineLeftCardFront"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Texte"
+                    android:layout_centerInParent="true"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic"
+                    />-->
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/agile_logo"
+                    android:padding="60dp"
+                    android:layout_centerInParent="true"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_ThirdLineLeftCardBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:background="@android:color/white"
+                >
+
+                <TextView
+                    android:id="@+id/textView_titleThirdLineLeftCardBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    />
+            </RelativeLayout>
+
+        </com.communicationproject.views.FlipLayout>
+
+        <com.communicationproject.views.FlipLayout
+            android:id="@+id/flipLayout_ThirdLineRightCard"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_ThirdLineRightCardFront"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:background="@android:color/white"
+                >
+
+                <!--<TextView
+                    android:id="@+id/textView_titleThirdLineRightCardFront"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Texte"
+                    android:layout_centerInParent="true"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic"
+                    />-->
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/android_logo"
+                    android:padding="20dp"
+                    android:layout_centerInParent="true"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout_ThirdLineRightCardBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:background="@android:color/white"
+                >
+
+                <TextView
+                    android:id="@+id/textView_titleThirdLineRightCardBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    />
+            </RelativeLayout>
+
+        </com.communicationproject.views.FlipLayout>
+
+    </LinearLayout>
+
+    <com.communicationproject.views.FlipLayout
+        android:id="@+id/flipLayout_lastLineCard"
+        android:layout_below="@+id/flipLayout_thirdLine"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_lastLineCardFront"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:background="@android:color/white"
+            >
+
+            <TextView
+                android:id="@+id/textView_titleThirdLineRightCardFront"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Platine"
+                android:layout_centerInParent="true"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_lastLineCardBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:background="@android:color/white"
+            >
+
+            <TextView
+                android:id="@+id/textView_titleLastLineCardBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textSize="17sp"
+                />
+        </RelativeLayout>
+
+    </com.communicationproject.views.FlipLayout>
+
+    <!--<in.arjsna.swipecardlib.SwipeCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rotation_degrees="15.5"
+        app:bottom_swipe_detect="false">
+
+
+    </in.arjsna.swipecardlib.SwipeCardView>-->
+
+
+
+</RelativeLayout>
