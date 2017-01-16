@@ -32,7 +32,7 @@ public class ProjectActivity extends AppCompatActivity {
 
     private void initialize_array_projects(){
         listCards.add(new Card("Platine Zoo", "Réalisation d'une application mobile pour le Zoo de Lille",
-                "https://platinezoo.files.wordpress.com/2016/02/screenshot_2016-02-08-12-02-17.png?w=636&h=582",
+                "https://platinezoo.files.wordpress.com/2016/02/screenshot_2016-02-04-10-28-16.png?w=1400&h=&crop=1",
                 "https://platinezoo.files.wordpress.com/2016/02/screenshot_2016-02-04-10-28-16.png?w=1400&h=&crop=1",
                 "https://platinezoo.files.wordpress.com/2016/02/screenshot_2016-02-04-10-28-21.png?w=1400&h=&crop=1",
                 "https://www.youtube.com/watch?v=kw3_otUQWcA"
