@@ -11,13 +11,13 @@
     <string name="second_line_center_card_back">Le module sert à découvrir le framework JavaScript libre et open-source5 développé par Google.</string>
 
     <string name="third_line_right_card_front">J2EE</string>
-    <string name="third_line_right_card_back">Cette UE s\'intéresse essentiellement aux serveurs d\'applications de type Java EE et .NET et au domaine des architectures logicielles orientées services (Web Services, SCA, ESB). Les différents frameworks afférents tels, que accès aux données (par ex. Hibernate, Spring), présentation (par ex. Struts, JSF) et les technologies de développement associées sont abordés.</string>
+    <string name="third_line_right_card_back">Le projet réalisé à travers ce module permet de découvrir et d\'approfondir les connaissances liées à ce système d\'exploitation mobile.</string>
 
     <string name="third_line_left_card_front">Méthodologie Agile</string>
-    <string name="third_line_left_card_back">Les méthodes agiles sont des groupes de pratiques de projets de développement en informatique, pouvant s\'appliquer à divers types de projets. Cet UE permet de comprendre les différentes méthodologies de gestion de projets.</string>
+    <string name="third_line_left_card_back">Cette UE s\'intéresse essentiellement aux serveurs d\'applications de type Java EE et .NET et au domaine des architectures logicielles orientées services (Web Services, SCA, ESB). Les différents frameworks afférents tels, que accès aux données (par ex. Hibernate, Spring), présentation (par ex. Struts, JSF) et les technologies de développement associées sont abordés.</string>
 
     <string name="second_line_right_card_front">Android</string>
-    <string name="second_line_right_card_back">Le projet réalisé à travers ce module permet de découvrir et d\'approfondir les connaissances liées à ce système d\'exploitation mobile</string>
+    <string name="second_line_right_card_back">Les méthodes agiles sont des groupes de pratiques de projets de développement en informatique, pouvant s\'appliquer à divers types de projets. Cet UE permet de comprendre les différentes méthodologies de gestion de projets.</string>
 
     <string name="last_line_card_front">Platine</string>
     <string name="last_line_card_back">Ce module a pour objectif principal de permettre aux étudiants de mettre en pratique les savoirs et les savoirs-faire qu\’ils ont accumulés en Licence et Master, et de montrer qu\’ils maîtrisent les méthodes, outils et techniques du monde de l\’entreprise.</string>
