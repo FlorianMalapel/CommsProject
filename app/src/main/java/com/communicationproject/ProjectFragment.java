@@ -55,6 +55,7 @@ public class ProjectFragment extends Fragment implements View.OnClickListener {
     private void initialize(){
         textView_title.setText(card.name);
         textView_desc.setText(card.desc);
+        button_moreInfo.setOnClickListener(this);
         Picasso.with(getContext()).load(card.image1_url).into(imageView_1);
         Picasso.with(getContext()).load(card.image2_url).into(imageView_2);
         Picasso.with(getContext()).load(card.image3_url).into(imageView_3);

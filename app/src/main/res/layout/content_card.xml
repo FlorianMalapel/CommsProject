@@ -65,6 +65,7 @@
         android:text="@string/seeVideos"
         android:paddingRight="25dp"
         android:paddingLeft="25dp"
+        android:textAllCaps="false"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="100dp"
