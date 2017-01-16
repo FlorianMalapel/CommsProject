@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/Color_Beige"
+        >
+
+        <TextView
+            android:id="@+id/textView_platine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Projet Platine"
+            android:textSize="45sp"
+            android:layout_centerInParent="true"
+            android:fontFamily="cursive"/>
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@color/Color_Beige"
+            >
+
+            <TextView
+                android:id="@+id/textView_platineDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/last_line_card_back"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+
+        </RelativeLayout>
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+        </android.support.v4.view.ViewPager>
+
+</LinearLayout>

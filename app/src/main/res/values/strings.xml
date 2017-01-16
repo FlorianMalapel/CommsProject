@@ -2,21 +2,27 @@
     <string name="app_name">CommunicationProject</string>
 
     <string name="top_card_front">Master E-services</string>
-    <string name="top_card_back">La spécialité E-Services s\'articule autour de la conception et du développement des e-services, c\'est-à-dire les services accessibles au travers des moyens de communication numérique, notamment l\'Internet, mais également tous les nouveaux équipements de l\'informatique ubiquitaires, smart phones, interfaces multi-touch, interfaces vocales.</string>
+    <string name="top_card_back">La spécialité E-Services s\'articule autour de la conception et du développement des e-services, c\'est-à-dire les services accessibles au travers des moyens de communication numérique, mais également tous les nouveaux équipements de l\'informatique ubiquitaires, smart phones, interfaces multi-touch, interfaces vocales.</string>
 
     <string name="second_line_left_card_front">Symphony</string>
-    <string name="second_line_left_card_back">Cette UE s\'intéresse essentiellement aux serveurs d\'applications de type Java EE et .NET et au domaine des architectures logicielles orientées services (Web Services, SCA, ESB). Les différents frameworks afférents tels, que accès aux données (par ex. Hibernate, Spring), présentation (par ex. Struts, JSF) et les technologies de développement associées sont abordés.</string>
+    <string name="second_line_left_card_back">Symfony est un framework, MVC libre écrit en PHP. Il est utilisé durant l\'année pour développer facilement un site web et ainsi profiter des fonctionnalités modulables et adaptables.</string>
 
     <string name="second_line_center_card_front">Angular</string>
-    <string name="second_line_center_card_back">L\'UE Technologies pour Applications Connectées (TAC) se concentre sur le développement des applications connectées à Internet. Nous visons ici à d\'abord approfondir les deux principaux modes de connexion : les applications Web classiques (HTML5 + JavaScript) et les applications mobiles (natives). Des outils (par exemple, Selenium) pour réaliser des tests d\'interaction d\'une application connectée sont également étudiés et mis en pratique. L\'UE aborde aussi un autre type d\'accès très répandu, la voix, en étudiant le principe de fonctionnement des Serveurs Vocaux Interactifs.</string>
+    <string name="second_line_center_card_back">Le module sert à découvrir le framework JavaScript libre et open-source5 développé par Google.</string>
 
-    <string name="second_line_right_card_front">J2EE</string>
-    <string name="second_line_right_card_back">Coming soon</string>
+    <string name="third_line_right_card_front">J2EE</string>
+    <string name="third_line_right_card_back">Cette UE s\'intéresse essentiellement aux serveurs d\'applications de type Java EE et .NET et au domaine des architectures logicielles orientées services (Web Services, SCA, ESB). Les différents frameworks afférents tels, que accès aux données (par ex. Hibernate, Spring), présentation (par ex. Struts, JSF) et les technologies de développement associées sont abordés.</string>
 
     <string name="third_line_left_card_front">Méthodologie Agile</string>
-    <string name="third_line_left_card_back">Comprendre les différentes méthodologies de gestion de projets</string>
+    <string name="third_line_left_card_back">Les méthodes agiles sont des groupes de pratiques de projets de développement en informatique, pouvant s\'appliquer à divers types de projets. Cet UE permet de comprendre les différentes méthodologies de gestion de projets.</string>
 
-    <string name="third_line_right_card_front">Android</string>
-    <string name="third_line_right_card_back">Coming soon</string>
+    <string name="second_line_right_card_front">Android</string>
+    <string name="second_line_right_card_back">Le projet réalisé à travers ce module permet de découvrir et d\'approfondir les connaissances liées à ce système d\'exploitation mobile</string>
+
+    <string name="last_line_card_front">Platine</string>
+    <string name="last_line_card_back">Ce module a pour objectif principal de permettre aux étudiants de mettre en pratique les savoirs et les savoirs-faire qu\’ils ont accumulés en Licence et Master, et de montrer qu\’ils maîtrisent les méthodes, outils et techniques du monde de l\’entreprise.</string>
+
+    <string name="moreInformation">Plus d\'informations</string>
+    <string name="seeVideos">Voir la vidéo</string>
 
 </resources>
