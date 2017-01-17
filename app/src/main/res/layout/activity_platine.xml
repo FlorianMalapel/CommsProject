@@ -46,11 +46,25 @@
 
         </RelativeLayout>
 
+        <com.rd.PageIndicatorView
+            android:id="@+id/pageIndicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            app:piv_selectedColor="@color/Color_Black"
+            app:piv_unselectedColor="@android:color/darker_gray"
+            app:piv_animationType="worm"
+            app:piv_viewPager="@+id/viewPager"
+            app:piv_dynamicCount="true"
+            app:piv_padding="16dp"
+            app:piv_radius="8dp"
+            />
 
         <android.support.v4.view.ViewPager
             android:id="@+id/viewPager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@android:color/white"
             >
 
 

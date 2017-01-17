@@ -14,6 +14,8 @@ import com.communicationproject.model.Card;
 import com.squareup.picasso.Picasso;
 import com.thefinestartist.finestwebview.FinestWebView;
 
+import static android.view.View.GONE;
+
 /**
  * Created by florianmalapel on 12/01/2017.
  */
@@ -59,6 +61,9 @@ public class ProjectFragment extends Fragment implements View.OnClickListener {
         Picasso.with(getContext()).load(card.image1_url).into(imageView_1);
         Picasso.with(getContext()).load(card.image2_url).into(imageView_2);
         Picasso.with(getContext()).load(card.image3_url).into(imageView_3);
+        if(card.url_video == null){
+            button_moreInfo.setVisibility(GONE);
+        }
     }
 
     @Override
